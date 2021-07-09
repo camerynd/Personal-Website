@@ -1,6 +1,55 @@
-body {
-    background: pink;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {  
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 h1 {
-    color: rgb(204, 58, 83);
+    color:rgb(95, 147, 123)
+}
+#photograph {
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    display: block;  
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+  .flex-right {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    width: 75%;
+    height: auto;
+    background-color: rgb(228, 221, 196);
+    flex-direction: row;
+}
+.flex-left {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    width: 25%;
+    height: auto;
+    background-color: rgb(228, 221, 196);
+    flex-direction: row;
+}
+.container {
+    text-align: center;
+}
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: rgb(95, 147, 123);
+    padding: 5px 0;
+    color: rgb(247, 244, 244);
+}
+.fixed-header {
+    top: 0;
+}
+.fixed-footer {
+    bottom: 0;
 }
