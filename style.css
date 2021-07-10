@@ -2,6 +2,8 @@
 body {  
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    background: rgb(255,176,176);
+    background: radial-gradient(circle, rgba(255,176,176,1) 0%, rgba(194,188,251,1) 100%);
 }
 h1 {
     color:rgb(0, 0, 0)
@@ -9,12 +11,10 @@ h1 {
 p {
     font-size: 25px;
 }
-li {
-    margin-left: 0;
-    margin-right: 10%;
-    margin-top: .6em;
-    margin-bottom: .6em;
-    }
+a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #photograph {
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -24,27 +24,24 @@ li {
 .flex-container {
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    min-height: 40vh;
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
   .flex-left {
-      padding-top: 250px;
-      padding-left: 45px;
-      padding-bottom: 50px;
-      padding-right: 25px;
-      width: 25%;
-      height: auto;
-      background-color: rgb(228, 221, 196);
-      flex-direction: row;
+    background-color: rgb(174, 201, 188);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .flex-right {
-    padding-top: 150px;
-    padding-left: 25px;
-    padding-right: 45px;
-    padding-bottom: 30px;
-    width: 75%;
-    height: auto;
-    background-color: rgb(228, 221, 196);
-    flex-direction: row;
+    background-color: rgb(174, 201, 188);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container {
@@ -53,17 +50,17 @@ li {
 .fixed-footer {
     width: 100%;
     position: fixed;
-    background: rgb(95, 147, 123);
+    background: rgb(174, 201, 188);
     padding: 5px 0;
-    color: rgb(247, 244, 244);
+    color: rgb(0, 0, 0);
 }
 .fixed-header {
     top: 0;
     height: 5%;
     width: 100%;
     position: fixed;
-    background: rgb(95, 147, 123);
-    color: rgb(247, 244, 244);
+    background: rgb(174, 201, 188);
+    color: rgb(0, 0, 0);
     padding-top: 20px;
     font-size: 18px;
 }
