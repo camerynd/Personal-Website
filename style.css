@@ -4,8 +4,17 @@ body {
     margin: 0px;
 }
 h1 {
-    color:rgb(95, 147, 123)
+    color:rgb(0, 0, 0)
 }
+p {
+    font-size: 25px;
+}
+li {
+    margin-left: 0;
+    margin-right: 10%;
+    margin-top: .6em;
+    margin-bottom: .6em;
+    }
 #photograph {
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -17,30 +26,31 @@ h1 {
     flex-direction: row;
     min-height: 100vh;
   }
+  .flex-left {
+      padding-top: 250px;
+      padding-left: 45px;
+      padding-bottom: 50px;
+      padding-right: 25px;
+      width: 25%;
+      height: auto;
+      background-color: rgb(228, 221, 196);
+      flex-direction: row;
+  }
   .flex-right {
-    padding-top: 30px;
+    padding-top: 150px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 45px;
     padding-bottom: 30px;
     width: 75%;
     height: auto;
     background-color: rgb(228, 221, 196);
     flex-direction: row;
 }
-.flex-left {
-    padding-top: 50px;
-    padding-left: 25px;
-    padding-bottom: 50px;
-    padding-right: 25px;
-    width: 25%;
-    height: auto;
-    background-color: rgb(228, 221, 196);
-    flex-direction: row;
-}
+
 .container {
     text-align: center;
 }
-.fixed-header, .fixed-footer {
+.fixed-footer {
     width: 100%;
     position: fixed;
     background: rgb(95, 147, 123);
@@ -49,6 +59,13 @@ h1 {
 }
 .fixed-header {
     top: 0;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    background: rgb(95, 147, 123);
+    color: rgb(247, 244, 244);
+    padding-top: 20px;
+    font-size: 18px;
 }
 .fixed-footer {
     bottom: 0;
